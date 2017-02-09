@@ -1,0 +1,22 @@
+/**
+Theme Name: CSDF Theme
+Theme URI: http://centerstreetdazefestival.com
+Author: Nate Northway
+Author URI: http://natenorthway.com
+Description: The theme for the 20th Anniversary of Center Street Daze.
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: minimal, responsive, light, colorful, grid, sidebar, flexible-width, custom-header,
+custom-menu, editor-style, featured-images
+Text Domain: csdf
+*/
+
+@import 'sass/colors';
+@import 'sass/reset';
+@import 'sass/typography';
+@import 'sass/grid';
+@import 'sass/modules';
+@import 'sass/header';
+@import 'sass/content';
+@import 'sass/footer';
