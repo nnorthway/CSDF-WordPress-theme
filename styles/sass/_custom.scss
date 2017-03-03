@@ -1,0 +1,158 @@
+@import 'materialize';
+
+/*Colors*/
+$BrandPrimary: #2bbbad;
+
+/*Set Up Color Classes*/
+.brand-primary {
+  background-color: $BrandPrimary;
+}
+.brand-primary-text {
+  color: $BrandPrimary;
+}
+
+.brand-logo img {
+  margin-top: 10px;
+  height: 90px;
+}
+
+nav ul a {
+  @extend .black-text;
+}
+
+main {
+  min-height: 100vh;
+  margin-top: 30px;
+}
+
+#hero {
+  height: 80vh;
+  margin-top: -30px;
+}
+#sponsors {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
+.card {
+  .card-image {
+    @extend .grey;
+    @extend .darken-3;
+    img {
+      max-height: 500px;
+      width: auto;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  }
+}
+
+.post {
+  .post-header {
+    img {
+      width: 100%;
+    }
+  }
+  .post-content {
+    margin-top: 40px;
+    img {
+      max-width: 100%;
+      margin: 0 1em;
+      &.aligncenter {
+        margin: 0 auto;
+      }
+      &.alignright {
+        @extend .right;
+      }
+      &.alignleft {
+        @extend .left;
+      }
+    }
+  }
+  .post-footer {
+    margin-top: 50px;
+    @extend .grey-text;
+  }
+}
+
+.wp-caption {
+  max-width: 100%;
+  &.aligncenter {
+    @extend .center-align;
+  }
+  &.alignleft {
+    @extend .left;
+  }
+  &.alignright {
+    @extend .right;
+  }
+  img {
+    max-width: 100%;
+    &.aligncenter {
+      margin: 0 auto;
+    }
+    &.alignright {
+      @extend .right;
+    }
+    &.alignleft {
+      @extend .left;
+    }
+  }
+  p {
+    border-left: 2px solid $BrandPrimary;
+    padding-top: 1em;
+    padding-left: 2em;
+    margin-top: 0;
+    @extend .grey-text;
+  }
+}
+.align-center {
+  @extend .center-align;
+}
+.align-left {
+  @extend .left-align;
+}
+.align-right {
+  @extend .right-align;
+}
+
+.wrap {
+  word-wrap: break-word;
+}
+
+.skew {
+  margin: 150px auto;
+  /*box-shadow: inset 0 0 2px 2px rgba(0,0,0,.35);*/
+  -webkit-transform: skewY(4deg);
+          transform: skewY(4deg);
+  .skew-content {
+    -webkit-transform: skewY(-4deg);
+            transform: skewY(-4deg);
+    margin: 50px 0;
+  }
+}
+
+.music_hero {
+  background: url('images/band.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 50vh;
+  color: white;
+}
+#stage-row {
+  .card {
+    .card-image {
+      img {
+        max-height: 500px;
+        width: 100%;
+        display: inline-block;
+      }
+      .card-title {
+        width: 100%;
+        background: rgba(0,0,0,.5);
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(0,0,0,0)), to(rgba(0,0,0,.8)));
+        background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.8));
+        background: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.8));
+      }
+    }
+  }
+}
