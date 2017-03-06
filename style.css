@@ -6437,9 +6437,34 @@ main {
   min-height: 50vh;
   color: white; }
 
+.hero {
+  text-shadow: 0 0 3px #000;
+  margin-top: -30px;
+  min-height: 50vh;
+  color: white; }
+  .hero#timbuktu {
+    background: url("images/sponsors/timbuktu.jpg") no-repeat top center;
+    background-size: cover; }
+  .hero#company {
+    background: url("images/sponsors/company.jpg") no-repeat center center;
+    background-size: cover; }
+  .hero#jazz_gallery {
+    background: url("images/sponsors/jazzgallerybuilding.jpg") no-repeat top center;
+    background-size: cover; }
+  .hero#quarters {
+    background: url("images/sponsors/quarters_outside.jpg") no-repeat center center;
+    background-size: cover; }
+  .hero#wxrw {
+    background: url("images/sponsors/wxrw.jpg") no-repeat top center;
+    background-size: cover; }
+  .hero#uptowner {
+    background: url("images/sponsors/uptowner_outside.jpg") no-repeat center center;
+    background-size: cover; }
+  .hero .container .row {
+    padding-top: 30px; }
+
 #stage-row .card .card-image img {
   max-height: 500px;
-  width: 100%;
   display: inline-block; }
 #stage-row .card .card-image .card-title {
   width: 100%;

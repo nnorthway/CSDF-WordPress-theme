@@ -138,12 +138,46 @@ main {
   min-height: 50vh;
   color: white;
 }
+
+.hero {
+  &#timbuktu {
+    background: url('images/sponsors/timbuktu.jpg') no-repeat top center;
+    background-size: cover;
+  }
+  &#company {
+    background: url('images/sponsors/company.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  &#jazz_gallery {
+    background: url('images/sponsors/jazzgallerybuilding.jpg') no-repeat top center;
+    background-size: cover;
+  }
+  &#quarters {
+    background: url('images/sponsors/quarters_outside.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  &#wxrw {
+    background: url('images/sponsors/wxrw.jpg') no-repeat top center;
+    background-size: cover;
+  }
+  &#uptowner {
+    background: url('images/sponsors/uptowner_outside.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  .container .row {
+    padding-top: 30px;
+  }
+  text-shadow: 0 0 3px #000;
+  margin-top: -30px;
+  min-height: 50vh;
+  color: white;
+}
+
 #stage-row {
   .card {
     .card-image {
       img {
         max-height: 500px;
-        width: 100%;
         display: inline-block;
       }
       .card-title {
